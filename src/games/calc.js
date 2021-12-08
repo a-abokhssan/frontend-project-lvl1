@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync'
-import randomNumber from '../util.js'
+import { randomNumber } from '../util.js'
 
 const calcGame = (name) => {
   const operations = ['+', '-', '*']
